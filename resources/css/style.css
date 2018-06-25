@@ -1,3 +1,7 @@
+/*google font code
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
 .bkgcontainer {
   background-image: url("img.jpg");
   background-color: black;
@@ -21,6 +25,7 @@ header {
 
 header h1 {
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #554348;
   height: 30px;
@@ -59,7 +64,7 @@ nav a {
   background-color: #93b7be;
   text-align: center;
   text-decoration: none;
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: #f6fedb;
    transition-property: background-color text-shadow border;
@@ -79,6 +84,7 @@ nav a:hover {
 }
 h2 {
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 300px;
   text-align: center;
   /*border: 0.1px #554348 solid;*/
