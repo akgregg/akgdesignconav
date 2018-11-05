@@ -3,38 +3,44 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Zilla Slab Highlight', cursive;*/
 
+/* universal styles */
+
+html {
+  font-size: 18px;
+}
+
 .bkgcontainer {
   background-image: url("img.jpg");
   background-color: black;
   background-position: cover;
   width: 100%;
-  height: 1000px;
+  height: 55rem;
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
 }
 
+/*header styles*/
+
 header {
-  height: 50px;
+  height: 3rem;
   position: fixed;
   z-index: 1;
   /*border: 1px black solid;*/
   width: 100%;
   background-color: rgba(147, 183, 190, 0.1);
-
 }
 
 header h1 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   color: #554348;
-  height: 30px;
+  height: 2rem;
   text-align: center;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 0px;
-
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0;
 }
 
 h1 {
@@ -44,31 +50,40 @@ h1 {
   float: right;
 }
 
+/*nav bar styles*/
 
 
 nav {
-  margin-top: 50px;
+  margin-top: 3rem;
   position: fixed;
   /*border: 1px #554348 solid;*/
 }
 
-nav li {
-    display: inline-block;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1rem;
+}
+nav li a {
+    display: block;
+    width: 7rem;
     /*border: 0.5px #554348 solid;*/
 }
 nav a {
-  display: block;
-  width: 100%;
+
   padding: 0;
   border-radius: 5px;
-  margin: 5px;
-  background-color: #93b7be;
-  text-align: center;
+  margin: 0.25rem;
+  /*background-color: #554348;*/
+  /*#93b7be;*/
+  /*text-align: center;*/
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-family: 'Zilla Slab Highlight', cursive;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-size: 1.3rem;
   font-weight: 400;
-  color: #f6fedb;
+  color: #554348;
+  /*#f6fedb;*/
    transition-property: background-color text-shadow border;
   transition-duration: 400ms;
 }
@@ -77,21 +92,23 @@ nav a:hover {
   background-color: rgba(147, 183, 190, 0.1);
   color: #f6fedb;
   text-shadow: 2px 2px #554348;
-  border: 1px #554348 solid;
+  /*border: 1px #554348 solid;*/
 }
+
+/*main content stles*/
 
 .latest-news {
   display: flex;
   justify-content: center;
 }
+
 h2 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: 'Zilla Slab Highlight', cursive;
-  margin-top: 300px;
+  margin-top: 17rem;
   text-align: center;
   /*border: 0.1px #554348 solid;*/
   width: 30%;
   color: #554348;
   font-weight: 400;
-
 }
