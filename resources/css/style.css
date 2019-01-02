@@ -31,9 +31,16 @@ html {
 
 h1 {
   font-family: 'Playfair Display', serif;
+  color: black;
 }
 
 .lead {
   font-family: 'Raleway', sans-serif;
   margin-top: 1rem;
+  color: black;
+}
+
+html {
+  background-image: url("../images/bkg.jpg");
+  background-position: center;
 }
