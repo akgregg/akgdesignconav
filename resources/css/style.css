@@ -40,7 +40,7 @@ h1 {
   color: black;
 }
 
-html {
+body {
   background-image: url("../images/bkg.jpg");
   background-position: center;
 }
