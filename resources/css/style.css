@@ -52,8 +52,8 @@ span {
   background-color: rgba(200, 200, 200, .3);
 }
 .img-container {
-  background-image: url("../images/bkg.jpg");
-  background-position: center;
+  background-image: url("../images/bkg.png");
+  background-position: 25% right;
   height: 10rem;
   width: 100%;
 }
