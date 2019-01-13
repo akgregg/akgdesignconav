@@ -9,6 +9,8 @@ font-family: 'Raleway', sans-serif;*/
 
 html {
   font-size: 18px;
+  color: rgba (35, 35, 35, 1);
+  background-color: rgba(200, 200, 200, .3);
 }
 /*Responsive design code*/
 
@@ -31,16 +33,61 @@ html {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  color: black;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(103, 61, 137, 1);
+  padding-bottom: 1rem;
 }
 
+span {
+  color: rgba(103, 61, 137, 1);
+}
 .lead {
   font-family: 'Raleway', sans-serif;
   margin-top: 1rem;
-  color: black;
+  font-weight: 400;
 }
 
-body {
+.jumbotron {
+  margin-bottom: 0;
+  background-color: rgba(200, 200, 200, .3);
+}
+.img-container {
   background-image: url("../images/bkg.jpg");
   background-position: center;
+  height: 10rem;
+  width: 100%;
 }
+
+.grid-container {
+  display: grid;
+  grid-gap: 2.5rem;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 30% 30% 30%;
+  background-color: rgba(200, 200, 200, 0.3);
+  padding: 3rem;
+}
+.grid-item {
+  background-color: rgba(244, 249, 243, .3);
+  border: 1px solid rgba(103, 61, 137, 1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+.copywrite p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding-top: 4rem;
+  }
