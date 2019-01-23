@@ -12,24 +12,265 @@ html {
   color: rgba (35, 35, 35, 1);
   background-color: rgba(200, 200, 200, .3);
 }
+
+span {
+  color: rgba(103, 61, 137, 1);
+}
 /*Responsive design code*/
 
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (max-width: 575.98px) {
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(103, 61, 137, 1);
+    padding-bottom: 1rem;
+  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+  .lead {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+  .jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(200, 200, 200, .3);
+  }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+  .services-container {
+    background-image: url("../images/bkg.png");
+    background-position: 70% 45%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3rem;
+  }
 
+   .services {
+    background-color: rgba(244, 249, 243, 0.8);
+    border: 1px solid rgba(103, 61, 137, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 15rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  footer {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.3);
+  }
+
+  .copywrite p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 4rem;
+    }
+   }
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(103, 61, 137, 1);
+    padding-bottom: 1rem;
+  }
+
+  .lead {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(200, 200, 200, .3);
+  }
+  .services-container {
+    background-image: url("../images/bkg.png");
+    background-position: 70% 45%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 4rem;
+  }
+
+   .services {
+    background-color: rgba(244, 249, 243, 0.8);
+    border: 1px solid rgba(103, 61, 137, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    margin: 1.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 20rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  footer {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.3);
+  }
+
+  .copywrite p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 4rem;
+    }
+   }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(103, 61, 137, 1);
+    padding-bottom: 1rem;
+  }
+
+  .lead {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(200, 200, 200, .3);
+  }
+  .services-container {
+    background-image: url("../images/bkg.png");
+    background-position: 70% 45%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5rem;
+  }
+
+   .services {
+    background-color: rgba(244, 249, 243, 0.8);
+    border: 1px solid rgba(103, 61, 137, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    margin: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 20rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  footer {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.3);
+  }
+
+  .copywrite p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 4rem;
+    }
+   }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(103, 61, 137, 1);
+    padding-bottom: 1rem;
+  }
+
+  .lead {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+    background-color: rgba(200, 200, 200, .3);
+  }
+  .services-container {
+    background-image: url("../images/bkg.png");
+    background-position: 70% 45%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5rem;
+  }
+
+   .services {
+    background-color: rgba(244, 249, 243, 0.8);
+    border: 1px solid rgba(103, 61, 137, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 20rem;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  footer {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(200, 200, 200, 0.3);
+  }
+
+  .copywrite p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 4rem;
+    }
+   }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
 
 h1 {
   font-family: 'Playfair Display', serif;
@@ -38,44 +279,41 @@ h1 {
   padding-bottom: 1rem;
 }
 
-span {
-  color: rgba(103, 61, 137, 1);
-}
 .lead {
   font-family: 'Raleway', sans-serif;
   margin-top: 1rem;
   font-weight: 400;
+  font-size: 1.8rem;
 }
 
 .jumbotron {
   margin-bottom: 0;
   background-color: rgba(200, 200, 200, .3);
 }
-.img-container {
+.services-container {
   background-image: url("../images/bkg.png");
-  background-position: 25% right;
-  height: 10rem;
-  width: 100%;
+  background-position: 70% 45%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 5rem;
 }
 
-.grid-container {
-  display: grid;
-  grid-gap: 2.5rem;
-  justify-content: center;
-  align-content: center;
-  grid-template-columns: 30% 30% 30%;
-  background-color: rgba(200, 200, 200, 0.3);
-  padding: 3rem;
-}
-.grid-item {
-  background-color: rgba(244, 249, 243, .3);
+ .services {
+  background-color: rgba(244, 249, 243, 0.8);
   border: 1px solid rgba(103, 61, 137, 1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 2rem;
+  margin: 1rem;
   font-size: 2rem;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  width: 25rem;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 footer {
@@ -91,3 +329,4 @@ footer {
   font-size: 0.8rem;
   padding-top: 4rem;
   }
+}
